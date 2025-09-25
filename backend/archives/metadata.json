@@ -1,52 +1,287 @@
 {
   "archives": [
     {
-      "id": "50655e66-a5bb-4568-aa22-6ce08512048f",
-      "url": "https://google.com",
-      "domain": "google.com",
-      "timestamp": "2025-09-25T06:56:54.391Z",
-      "status": "failed",
-      "pages": [],
+      "id": "bc3140d8-5e95-4d29-9314-7a9dc84e52b7",
+      "url": "https://example.com",
+      "domain": "example.com",
+      "timestamp": "2025-09-25T07:27:02.567Z",
+      "status": "completed",
+      "pages": [
+        {
+          "url": "https://example.com",
+          "path": "index.html",
+          "savedAt": "2025-09-25T07:27:07.318Z"
+        }
+      ],
       "assets": [],
-      "createdAt": "2025-09-25T06:56:54.391Z",
-      "updatedAt": "2025-09-25T06:56:56.886Z",
-      "error": "socket hang up"
+      "createdAt": "2025-09-25T07:27:02.567Z",
+      "updatedAt": "2025-09-25T07:27:08.327Z",
+      "pagesArchived": 1,
+      "completedAt": "2025-09-25T07:27:08.326Z"
     },
     {
-      "id": "0d5bc249-c2cc-4c16-8954-6ff7899868cb",
-      "url": "https://insertcode.xyz",
-      "domain": "insertcode.xyz",
-      "timestamp": "2025-09-25T06:57:16.924Z",
-      "status": "failed",
-      "pages": [],
+      "id": "4cafb380-8619-433e-8a69-c083f39eac3e",
+      "url": "https://www.reddit.com/r/CatGifs/",
+      "domain": "www.reddit.com",
+      "timestamp": "2025-09-25T07:46:08.220Z",
+      "status": "completed",
+      "pages": [
+        {
+          "url": "https://www.reddit.com/r/CatGifs/",
+          "path": "r/CatGifs/index.html",
+          "savedAt": "2025-09-25T07:46:12.081Z"
+        },
+        {
+          "url": "https://www.reddit.com/",
+          "path": "index.html",
+          "savedAt": "2025-09-25T07:46:15.971Z"
+        },
+        {
+          "url": "https://www.reddit.com/login/",
+          "path": "login/index.html",
+          "savedAt": "2025-09-25T07:46:19.201Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs",
+          "path": "r/CatGifs.html",
+          "savedAt": "2025-09-25T07:46:23.211Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/about/",
+          "path": "r/CatGifs/about/index.html",
+          "savedAt": "2025-09-25T07:46:27.831Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/best/",
+          "path": "r/CatGifs/best/index.html",
+          "savedAt": "2025-09-25T07:46:31.777Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/hot/",
+          "path": "r/CatGifs/hot/index.html",
+          "savedAt": "2025-09-25T07:46:35.552Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/new/",
+          "path": "r/CatGifs/new/index.html",
+          "savedAt": "2025-09-25T07:46:40.254Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/top/",
+          "path": "r/CatGifs/top/index.html",
+          "savedAt": "2025-09-25T07:46:43.844Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/rising/",
+          "path": "r/CatGifs/rising/index.html",
+          "savedAt": "2025-09-25T07:46:47.563Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/?feedViewType=cardView",
+          "path": "r/CatGifs/index.html",
+          "savedAt": "2025-09-25T07:46:51.412Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/?feedViewType=compactView",
+          "path": "r/CatGifs/index.html",
+          "savedAt": "2025-09-25T07:46:55.598Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/comments/1n7hq3z/shes_a_dragon/",
+          "path": "r/CatGifs/comments/1n7hq3z/shes_a_dragon/index.html",
+          "savedAt": "2025-09-25T07:46:58.944Z"
+        },
+        {
+          "url": "https://www.reddit.com/user/Majorchan37/",
+          "path": "user/Majorchan37/index.html",
+          "savedAt": "2025-09-25T07:47:02.514Z"
+        },
+        {
+          "url": "https://www.reddit.com/user/SamsungMobileUS/",
+          "path": "user/SamsungMobileUS/index.html",
+          "savedAt": "2025-09-25T07:47:06.305Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/comments/1mybsp8/how_i_boost_my_serotonin/",
+          "path": "r/CatGifs/comments/1mybsp8/how_i_boost_my_serotonin/index.html",
+          "savedAt": "2025-09-25T07:47:09.704Z"
+        },
+        {
+          "url": "https://www.reddit.com/user/Pun_nav/",
+          "path": "user/Pun_nav/index.html",
+          "savedAt": "2025-09-25T07:47:13.483Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/CatGifs/comments/1mnh899/my_cat_tofu_winking_at_you/",
+          "path": "r/CatGifs/comments/1mnh899/my_cat_tofu_winking_at_you/index.html",
+          "savedAt": "2025-09-25T07:47:16.904Z"
+        },
+        {
+          "url": "https://www.reddit.com/user/SuperGBrush/",
+          "path": "user/SuperGBrush/index.html",
+          "savedAt": "2025-09-25T07:47:20.565Z"
+        },
+        {
+          "url": "https://www.reddit.com/mod/CatGifs/moderators/",
+          "path": "mod/CatGifs/moderators/index.html",
+          "savedAt": "2025-09-25T07:47:23.874Z"
+        },
+        {
+          "url": "https://www.reddit.com/policies/privacy-policy",
+          "path": "policies/privacy-policy.html",
+          "savedAt": "2025-09-25T07:47:27.110Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/rocki-irish-mayers/?q=rocki+irish+mayers&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=46a25109-207d-443a-adf2-2820ca9f97d7",
+          "path": "discover/rocki-irish-mayers/index.html",
+          "savedAt": "2025-09-25T07:47:30.751Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/marvels-wolverine/?q=marvels+wolverine&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=2d35944d-5f33-47b1-acde-7f61a255579f",
+          "path": "discover/marvels-wolverine/index.html",
+          "savedAt": "2025-09-25T07:47:34.372Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/casting-for-bond-26/?q=casting+for+bond+26&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=375ce4ae-654e-4c49-aa3e-d8e4a7384b7e",
+          "path": "discover/casting-for-bond-26/index.html",
+          "savedAt": "2025-09-25T07:47:37.844Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/carol-kaye-for-hall-of-fame/?q=carol+kaye+for+hall+of+fame&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=bcb0999e-fee2-49e9-bcdf-81a7e4d60cf3",
+          "path": "discover/carol-kaye-for-hall-of-fame/index.html",
+          "savedAt": "2025-09-25T07:47:41.318Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/fiverr-ai-first-company/?q=fiverr+ai+first+company&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=50d0576e-941e-4b3c-81a9-7db50191e688",
+          "path": "discover/fiverr-ai-first-company/index.html",
+          "savedAt": "2025-09-25T07:47:44.954Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/wicked-for-good-final-trailer/?q=wicked+for+good+final+trailer&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=1d9600c2-b3b4-44c1-87ad-2a2a811005ea",
+          "path": "discover/wicked-for-good-final-trailer/index.html",
+          "savedAt": "2025-09-25T07:47:48.784Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/tate-mcrae-tit-for-tat/?q=tate+mcrae+tit+for+tat&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=56a5d178-e659-4299-82ed-d7ea71423952",
+          "path": "discover/tate-mcrae-tit-for-tat/index.html",
+          "savedAt": "2025-09-25T07:47:52.679Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/nolan-smith/?q=nolan+smith&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=923558d4-a40e-4d98-848b-ac34e4f26f70",
+          "path": "discover/nolan-smith/index.html",
+          "savedAt": "2025-09-25T07:47:56.279Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/paul-toboni/?q=paul+toboni&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=3193bbfa-17f6-49c8-b05d-2fc67d0ac0d9",
+          "path": "discover/paul-toboni/index.html",
+          "savedAt": "2025-09-25T07:47:59.801Z"
+        },
+        {
+          "url": "https://www.reddit.com/discover/hades-2-review/?q=hades+2+review&source=trending&cId=2dadfc15-5035-4131-8a4b-1b1f67a8b71b&iId=78eed214-8bf6-45c8-a05f-f3ee7d911df1",
+          "path": "discover/hades-2-review/index.html",
+          "savedAt": "2025-09-25T07:48:03.342Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:07.159Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/hot/",
+          "path": "r/popular/hot/index.html",
+          "savedAt": "2025-09-25T07:48:11.015Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/new/",
+          "path": "r/popular/new/index.html",
+          "savedAt": "2025-09-25T07:48:15.253Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/top/",
+          "path": "r/popular/top/index.html",
+          "savedAt": "2025-09-25T07:48:18.870Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/rising/",
+          "path": "r/popular/rising/index.html",
+          "savedAt": "2025-09-25T07:48:22.707Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=global",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:26.635Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=us",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:30.634Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=ar",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:34.551Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=au",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:38.404Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=bg",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:42.361Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=ca",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:46.384Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=cl",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:50.243Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=co",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:54.132Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=hr",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:48:58.299Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=cz",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:49:02.299Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=fi",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:49:06.050Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=fr",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:49:09.947Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=de",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:49:13.897Z"
+        },
+        {
+          "url": "https://www.reddit.com/r/popular/best/?geo_filter=gr",
+          "path": "r/popular/best/index.html",
+          "savedAt": "2025-09-25T07:49:17.785Z"
+        }
+      ],
       "assets": [],
-      "createdAt": "2025-09-25T06:57:16.924Z",
-      "updatedAt": "2025-09-25T06:57:17.713Z",
-      "error": "socket hang up"
-    },
-    {
-      "id": "abe525ce-17a2-4578-8309-cd23149d8607",
-      "url": "https://insertcode.xyz",
-      "domain": "insertcode.xyz",
-      "timestamp": "2025-09-25T07:02:03.459Z",
-      "status": "failed",
-      "pages": [],
-      "assets": [],
-      "createdAt": "2025-09-25T07:02:03.459Z",
-      "updatedAt": "2025-09-25T07:02:04.445Z",
-      "error": "socket hang up"
-    },
-    {
-      "id": "c682fe99-1fcd-45a3-b478-f84773bea937",
-      "url": "https://squareup.com",
-      "domain": "squareup.com",
-      "timestamp": "2025-09-25T07:02:28.834Z",
-      "status": "failed",
-      "pages": [],
-      "assets": [],
-      "createdAt": "2025-09-25T07:02:28.834Z",
-      "updatedAt": "2025-09-25T07:02:29.632Z",
-      "error": "socket hang up"
+      "createdAt": "2025-09-25T07:46:08.220Z",
+      "updatedAt": "2025-09-25T07:49:18.803Z",
+      "pagesArchived": 50,
+      "completedAt": "2025-09-25T07:49:18.802Z"
     }
   ]
 }

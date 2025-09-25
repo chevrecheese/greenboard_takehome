@@ -1,230 +1,230 @@
 /* Global Styles */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 100vh;
-  color: #2c3e50;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(135deg, #184b3f 0%, #70b5aa 100%);
+	min-height: 100vh;
+	color: #2c3e50;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 /* App Layout */
 .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .app-header {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 2rem 0;
-  text-align: center;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+	background: rgba(255, 255, 255, 0.95);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 2rem 0;
+	text-align: center;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header-content h1 {
-  margin: 0 0 0.5rem 0;
-  font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+	margin: 0 0 0.5rem 0;
+	font-size: 3rem;
+	font-weight: 700;
+	background: linear-gradient(135deg, #0b352b, #70b5aa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
 
 .header-content p {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #5a6c7d;
-  font-weight: 400;
+	margin: 0;
+	font-size: 1.2rem;
+	color: #5a6c7d;
+	font-weight: 400;
 }
 
 .app-main {
-  flex: 1;
-  padding: 2rem 0;
+	flex: 1;
+	padding: 2rem 0;
 }
 
 .app-footer {
-  background: rgba(44, 62, 80, 0.9);
-  color: white;
-  text-align: center;
-  padding: 1.5rem 0;
-  margin-top: auto;
+	background: rgba(44, 62, 80, 0.9);
+	color: white;
+	text-align: center;
+	padding: 1.5rem 0;
+	margin-top: auto;
 }
 
 .footer-content p {
-  margin: 0;
-  font-size: 0.9rem;
+	margin: 0;
+	font-size: 0.9rem;
 }
 
 .footer-link {
-  color: #3498db;
-  text-decoration: none;
-  margin-left: 0.5rem;
-  transition: color 0.3s ease;
+	color: #3498db;
+	text-decoration: none;
+	margin-left: 0.5rem;
+	transition: color 0.3s ease;
 }
 
 .footer-link:hover {
-  color: #2980b9;
-  text-decoration: underline;
+	color: #2980b9;
+	text-decoration: underline;
 }
 
 /* Message System */
 .message-container {
-  max-width: 800px;
-  margin: 0 auto 2rem auto;
-  padding: 0 1rem;
+	max-width: 800px;
+	margin: 0 auto 2rem auto;
+	padding: 0 1rem;
 }
 
 .message {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  animation: slideIn 0.3s ease-out;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	animation: slideIn 0.3s ease-out;
 }
 
 .message-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
+	font-size: 1.2rem;
+	flex-shrink: 0;
 }
 
 .message-text {
-  flex: 1;
-  font-weight: 500;
-  line-height: 1.5;
+	flex: 1;
+	font-weight: 500;
+	line-height: 1.5;
 }
 
 .message-close {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-  flex-shrink: 0;
-  padding: 0.25rem;
-  border-radius: 4px;
+	background: none;
+	border: none;
+	font-size: 1.2rem;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: opacity 0.3s ease;
+	flex-shrink: 0;
+	padding: 0.25rem;
+	border-radius: 4px;
 }
 
 .message-close:hover {
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.1);
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.1);
 }
 
 .error-message {
-  background: #ffebee;
-  color: #c62828;
-  border-left: 4px solid #e74c3c;
+	background: #ffebee;
+	color: #c62828;
+	border-left: 4px solid #e74c3c;
 }
 
 .success-message {
-  background: #e8f5e8;
-  color: #2e7d32;
-  border-left: 4px solid #27ae60;
+	background: #e8f5e8;
+	color: #2e7d32;
+	border-left: 4px solid #27ae60;
 }
 
 /* Section Spacing */
 .form-section,
 .status-section,
 .list-section {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* Animations */
 @keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .app-header {
-    padding: 1.5rem 1rem;
-  }
+	.app-header {
+		padding: 1.5rem 1rem;
+	}
 
-  .header-content h1 {
-    font-size: 2.5rem;
-  }
+	.header-content h1 {
+		font-size: 2.5rem;
+	}
 
-  .header-content p {
-    font-size: 1rem;
-  }
+	.header-content p {
+		font-size: 1rem;
+	}
 
-  .app-main {
-    padding: 1rem 0;
-  }
+	.app-main {
+		padding: 1rem 0;
+	}
 
-  .message {
-    margin: 0 1rem 1rem 1rem;
-    padding: 1rem;
-  }
+	.message {
+		margin: 0 1rem 1rem 1rem;
+		padding: 1rem;
+	}
 
-  .message-text {
-    font-size: 0.9rem;
-  }
+	.message-text {
+		font-size: 0.9rem;
+	}
 }
 
 @media (max-width: 480px) {
-  .header-content h1 {
-    font-size: 2rem;
-  }
+	.header-content h1 {
+		font-size: 2rem;
+	}
 
-  .header-content p {
-    font-size: 0.9rem;
-  }
+	.header-content p {
+		font-size: 0.9rem;
+	}
 
-  .message {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
+	.message {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.5rem;
+	}
 
-  .message-close {
-    align-self: flex-end;
-    margin-top: -0.5rem;
-  }
+	.message-close {
+		align-self: flex-end;
+		margin-top: -0.5rem;
+	}
 }
 
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
 }
 
 /* Focus styles for better accessibility */
@@ -232,49 +232,49 @@ button:focus,
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 2px solid #3498db;
-  outline-offset: 2px;
+	outline: 2px solid #3498db;
+	outline-offset: 2px;
 }
 
 /* High contrast mode support */
 @media (prefers-contrast: high) {
-  .app-header {
-    background: white;
-    border-bottom: 2px solid black;
-  }
+	.app-header {
+		background: white;
+		border-bottom: 2px solid black;
+	}
 
-  .header-content h1 {
-    -webkit-text-fill-color: black;
-    background: none;
-  }
+	.header-content h1 {
+		-webkit-text-fill-color: black;
+		background: none;
+	}
 
-  .message {
-    border: 2px solid;
-  }
+	.message {
+		border: 2px solid;
+	}
 
-  .error-message {
-    border-color: #c62828;
-  }
+	.error-message {
+		border-color: #c62828;
+	}
 
-  .success-message {
-    border-color: #2e7d32;
-  }
+	.success-message {
+		border-color: #2e7d32;
+	}
 }
 
 /* Print styles */
 @media print {
-  .app-header,
-  .app-footer,
-  .message-container {
-    display: none;
-  }
+	.app-header,
+	.app-footer,
+	.message-container {
+		display: none;
+	}
 
-  body {
-    background: white;
-    color: black;
-  }
+	body {
+		background: white;
+		color: black;
+	}
 
-  .App {
-    min-height: auto;
-  }
+	.App {
+		min-height: auto;
+	}
 }
