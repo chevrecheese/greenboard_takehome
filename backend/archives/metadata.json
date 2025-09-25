@@ -1,0 +1,52 @@
+{
+  "archives": [
+    {
+      "id": "50655e66-a5bb-4568-aa22-6ce08512048f",
+      "url": "https://google.com",
+      "domain": "google.com",
+      "timestamp": "2025-09-25T06:56:54.391Z",
+      "status": "failed",
+      "pages": [],
+      "assets": [],
+      "createdAt": "2025-09-25T06:56:54.391Z",
+      "updatedAt": "2025-09-25T06:56:56.886Z",
+      "error": "socket hang up"
+    },
+    {
+      "id": "0d5bc249-c2cc-4c16-8954-6ff7899868cb",
+      "url": "https://insertcode.xyz",
+      "domain": "insertcode.xyz",
+      "timestamp": "2025-09-25T06:57:16.924Z",
+      "status": "failed",
+      "pages": [],
+      "assets": [],
+      "createdAt": "2025-09-25T06:57:16.924Z",
+      "updatedAt": "2025-09-25T06:57:17.713Z",
+      "error": "socket hang up"
+    },
+    {
+      "id": "abe525ce-17a2-4578-8309-cd23149d8607",
+      "url": "https://insertcode.xyz",
+      "domain": "insertcode.xyz",
+      "timestamp": "2025-09-25T07:02:03.459Z",
+      "status": "failed",
+      "pages": [],
+      "assets": [],
+      "createdAt": "2025-09-25T07:02:03.459Z",
+      "updatedAt": "2025-09-25T07:02:04.445Z",
+      "error": "socket hang up"
+    },
+    {
+      "id": "c682fe99-1fcd-45a3-b478-f84773bea937",
+      "url": "https://squareup.com",
+      "domain": "squareup.com",
+      "timestamp": "2025-09-25T07:02:28.834Z",
+      "status": "failed",
+      "pages": [],
+      "assets": [],
+      "createdAt": "2025-09-25T07:02:28.834Z",
+      "updatedAt": "2025-09-25T07:02:29.632Z",
+      "error": "socket hang up"
+    }
+  ]
+}
